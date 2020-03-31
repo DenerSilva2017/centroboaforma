@@ -140,6 +140,10 @@ html, body{
     line-height: 1.8rem;
 }
 
+.servicos .btn-horario{
+    padding-bottom: 20px;
+}
+
 /* CUSTOMIZADA */
 nav {
     color: #fff;
@@ -176,6 +180,10 @@ nav i.material-icons {
 .sidenav li > a{
     color: #fff;
     font-weight: 100;
+}
+
+.row{
+    margin-bottom: 0;
 }
 
 /* MEDIA */
