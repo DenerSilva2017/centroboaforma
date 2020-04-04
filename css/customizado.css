@@ -167,8 +167,8 @@ html, body{
 }
 
 .unidades p{
-    color: #fff;
     line-height: 1.8rem;
+    color: #fff;
 }
 
 
@@ -229,7 +229,6 @@ nav i.material-icons {
 .tabs .indicator {
     background-color: #2dc7d0;
 }
-
 
 
 /* MEDIA */
