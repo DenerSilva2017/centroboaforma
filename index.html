@@ -523,7 +523,7 @@
                     <h4> Fale conosco </h4>
                     <p class="light">  Dúvidas, críticas ou sujestões? Entre em contato conosco, seu feedback é muito importante. </p>
 
-                    <form action="enviar-email.php" method="post">
+                    <form action="#" method="post">
                         <div class="input-field">
                             <input type="text" name="name" id="name">
                             <label for="name">Seu nome</label>
@@ -650,17 +650,6 @@
                 $(".navbar").removeClass("nav-color");
             }
         })
-    </script>
-    <script>
-         <?php
-            if(isset($_GET['status'])):
-                if($_GET['status'] == "sucesso"):
-                echo "<script>Materialize.toast('Enviado com sucesso!', 4000);</script>";
-                else:   
-                echo "<script>Materialize.toast('Erro ao enviar', 4000);</script>";
-                endif;
-            endif;
-        ?>
     </script>
 </body>
 </html>
