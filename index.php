@@ -651,18 +651,5 @@
             }
         })
     </script>
-
-    
-    <script>
-          <?php
-             if(isset($_GET['status'])):
-                 if($_GET['status'] == "sucesso"):
-                 echo "<script>Materialize.toast('Enviado com sucesso!', 4000);</script>";
-                 else:   
-                 echo "<script>Materialize.toast('Erro ao enviar', 4000);</script>";
-                 endif;
-             endif;
-        ?>
-    </script>
 </body>
 </html>
