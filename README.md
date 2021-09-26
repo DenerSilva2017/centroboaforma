@@ -1,4 +1,3 @@
 # centroboaforma
- Site com Materialize
-
-Resultado de um projeto on-line.
+Site com Materialize
+Projeto realizado para a prática do conhecimento em Materialize.
